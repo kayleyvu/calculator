@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(214, 214, 214);
+}
+ 
+.container {
+    width: 250px;
+    height: 400px;
+    margin: 80px auto;
+    border-radius: 10px;
+    background-color: rgb(225, 225, 225);
+}
+ 
+.cal-box {
+    width: 200px;
+    margin: 20px auto;
+}
+ 
+#display {
+    border: none;
+    outline: none;
+    color: rgb(81, 81, 81);
+    text-align: right;
+    font-weight: 600;
+    padding: 15px;
+    margin: 30px 0 20px 0;
+    background: rgb(232, 232, 232);
+    border-radius: 10px;
+}
+ 
+.button {
+    margin: 15px 0 0 5px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline: none;
+    color: rgb(81, 81, 81);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(214, 214, 214);
+}
+ 
+.button:active {
+ 
+    /* When the button is pressed, the inset 
+    shadow provides the impression that the 
+    element is being pressed into it */
+    box-shadow: inset 1px 1px 2px #babecc,
+        inset -1px -1px 2px #fff;
+}
+ 
+.button:hover {
+    background-color: rgba(83, 83, 83, 0.135);
+}
+
+.clearButton {
+    color: white;
+    background-color: rgb(226, 118, 118);
+}
+
+.clearButton:hover {
+    background-color: rgb(227, 82, 82);
+}
+ 
+.mathbutton {
+    color: white;
+    background-color: rgb(81, 81, 81);
+}
+
+.mathbutton:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+footer {
+    color: #878787;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
